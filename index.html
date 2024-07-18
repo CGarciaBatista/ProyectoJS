@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="Styles/styles_index.css">
+    <script defer src="Scrips/scrip.js"></script>
+</head>
+<body>
+    <h1>Gestión de Alumnos</h1>
+    <div class="card shadow mb-4">
+        <h2>Añadir Alumno</h2>
+        <form id="formAñadirAlumno" class="card__form"  >
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <label for="edad">Edad:</label><br>
+            <input type="number" id="edad" name="edad" required><br><br>
+
+            <label for="grado">Grado:</label><br>
+            <input type="text" id="grado" name="grado" required><br><br>
+
+            <label for="seccion">Sección:</label><br>
+            <input type="text" id="seccion" name="seccion" required><br><br>
+
+            <input type="submit" value="Añadir Alumno">
+        </form>
+    </div>
+    <div class="card shadow mb-4">
+        <h2>Actualizar Grado de Alumno</h2>
+        <form id="formActualizarGrado" class="card__form">
+            <label for="nombreActualizar">Nombre del Alumno:</label><br>
+            <input type="text" id="nombreActualizar" name="nombreActualizar" required><br><br>
+
+            <label for="nuevoGrado">Nuevo Grado:</label><br>
+            <input type="text" id="nuevoGrado" name="nuevoGrado" required><br><br>
+
+            <input type="submit" value="Actualizar Grado">
+        </form>
+    </div>
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Lista Alumnos</h6>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Edad</th>
+                            <th>Grado</th>
+                            <th>Sección</th>
+                        </tr>
+                    </thead>
+                    <tbody id="content">
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
