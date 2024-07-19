@@ -47,23 +47,6 @@ function actualizarGrado(nombre, nuevoGrado) {
     })
 }
 
-// Función para listar todos los alumnos
-/*function listarAlumnos() {
-    const lista = document.getElementById('listaAlumnos');
-    lista.innerHTML = '';
-    if (alumnos.length === 0) {
-        lista.innerHTML = '<li>No hay alumnos registrados.</li>';
-    } else {
-        alumnos.forEach(al => {
-            const item = document.createElement('li');
-            item.textContent = `Nombre: ${al.nombre}, Edad: ${al.edad}, Grado: ${al.grado}, Sección: ${al.seccion}`;
-            lista.appendChild(item);
-        });
-    }
-}*/
-
-/////////editado por Carlos ////////
-
 //imprimir listado en la tabla
 function listarAlumnos() {
     const lista = document.getElementById('content');
