@@ -1,23 +1,21 @@
 <template>
-    <header>
-        <h1> Gestion de Alumnos </h1>
-    </header>
+  <header>
+    <h1>Gestion de Alumnos</h1>
+  </header>
 </template>
 
-
-
-<style  scoped>
+<style scoped>
 header {
-    width: 100%;
-    height: 5rem;
-    background-color: #640032;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: 5rem;
+  background-color: #640032;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 header h1 {
-    color: white;
-    margin: 0;
+  color: white;
+  margin: 0;
 }
 </style>

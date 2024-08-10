@@ -1,31 +1,30 @@
 <template>
-    <the-header></the-header>
-    <the-operations></the-operations>
+  <the-header></the-header>
+  <the-operations></the-operations>
 </template>
 
 <script>
-import TheHeader from './components/Layouts/TheHeader.vue';
-import TheOperations from './components/Operations/TheOperations.vue';
+import TheHeader from './components/Layouts/TheHeader.vue'
+import TheOperations from './components/Operations/TheOperations.vue'
 // eslint-disable-next-line no-unused-vars
 export default {
-    components: {
-        TheHeader,
-        TheOperations
-    },
-   
+  components: {
+    TheHeader,
+    TheOperations
+  }
 }
 </script>
 
-<style  >
+<style>
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
-    margin: 0;
+  margin: 0;
 }
 </style>
